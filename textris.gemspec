@@ -37,5 +37,5 @@ Gem::Specification.new do |spec|
   spec.add_runtime_dependency 'activejob',       '~> 7.0.8.4'
   spec.add_runtime_dependency 'activesupport',   '~> 7.0.8.4'
   spec.add_runtime_dependency 'phony',           '~> 2.8'
-  spec.add_runtime_dependency 'nokogiri',        '~> 1.12.0'
+  spec.add_runtime_dependency 'nokogiri',        '~> 1.15.6'
 end
