@@ -20,7 +20,7 @@ Gem::Specification.new do |spec|
   spec.test_files       = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths    = ["lib"]
 
-  spec.add_development_dependency "rails", "~> 7.0.8.4"
+  spec.add_development_dependency "rails", "< 9"
   spec.add_development_dependency 'bundler',                   '~> 2.3.6'
   spec.add_development_dependency 'codeclimate-test-reporter', '~> 0.4'
   spec.add_development_dependency 'rake',                      '>= 12.2'
@@ -33,9 +33,9 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'nexmo',                     '~> 2.0'
   spec.add_development_dependency 'appraisal',                 '~> 2.1'
 
-  spec.add_runtime_dependency 'actionmailer',    '~> 7.0.8.4'
-  spec.add_runtime_dependency 'activejob',       '~> 7.0.8.4'
-  spec.add_runtime_dependency 'activesupport',   '~> 7.0.8.4'
+  spec.add_runtime_dependency 'actionmailer',    '< 9'
+  spec.add_runtime_dependency 'activejob',       '< 9'
+  spec.add_runtime_dependency 'activesupport',   '< 9'
   spec.add_runtime_dependency 'phony',           '~> 2.8'
   spec.add_runtime_dependency 'nokogiri',        '~> 1.15.6'
 end
